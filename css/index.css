@@ -1,0 +1,96 @@
+
+/* :root{
+    vr
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    /* overflow-x: hidden; */
+}
+body{
+    background: linear-gradient(to right, red, blue);
+}
+/* CLASS SELCETORS SECTION */
+.main{
+    text-align: center;
+    color: #fff;
+}
+.bmiOutput{
+    background-color: #fff;
+    /* width: 200px;
+    height: 40px; */
+    position: absolute;
+    left: 230vh;
+    bottom: 50vh;
+}
+.resultOutput{
+    /* background-color: red; */
+    color: #000;
+}
+.selectAction{
+    border: none;
+    /* background-color: transparent; */
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+}
+.btnCalculate{
+    border: none;
+    background: linear-gradient(to left, red, blue);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btnCalculate:hover{
+    cursor: pointer;
+}
+input{
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid rgb(200, 200, 200);
+    outline: none;
+    border-radius: 7px;
+    background-color: transparent;
+    width: 150px;
+}
+input:hover{
+    border: 2px solid dodgerblue;
+}
+input::placeholder{
+    color: #fff;
+    font-weight: lighter;
+}
+.foot{
+    color: #fff;
+    text-align: center;
+}
+/* MEDIA QUERRY SECTION */
+@media screen and  (max-width:600px)  {
+    .bmiOutput{
+        position: static;
+        margin-left: 30px;
+        width: auto;
+    }
+    .selectAction{
+        width: auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .bmiOutput{
+        position: static;
+        margin-left: 30px;
+        width: auto;
+    }
+}
+@media (width > 900px) {
+    .bmiOutput{
+        position: static;
+        margin-left: 30px;
+        width: auto;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiracleTech BMI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="icon" href="images/bodymax.png">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="main">
+        <h2>BMI CALCULATOR</h2>
+        <p class="welcomeMessage"><strong>Notice: Please ensure you fill in the inputs before calculating BMI.</strong></p>
+        <div class="unitsDisplay">
+            
+            <h2>Units</h2>
+            <select name="" id="" class="selectAction">
+                <option value="Pounds">Standard/Metric</option>
+                <option value="Perimeter" >Imperial</option>
+            </select>
+        </div>
+        <div class="weight">
+            <label for="weight">Weight</label>
+            <input type="number" placeholder="kg" id="mainWeight">
+        </div>
+        <div class="height">
+            <label for="height">Height</label>
+            <input type="number" name="" id="mainHeight" placeholder="cm" required>
+        </div>
+        <button class="btnCalculate">Calculate BMI</button>
+        <div class="result">
+            <h3>RESULT</h3>
+            <input class="showResult" type="text" readonly required>
+        </div>
+        <div class="bmiOutput">
+            <p class="resultOutput">
+                
+            </p>
+        </div>
+    </div>
+   <div class="foot">
+    <footer>
+        2023 MiracleTech BMI Calculator &COPY; <br> All Rights Reserved.
+        <p class="support">If you wish to support this program, kindly<a href="tel:+2347043382546" style="color: #f3f3f3; font-weight: bold;">contact me</a>for your enquiries</p>
+    </footer>
+   </div>
+</body>
+<script src="js/index.js"></script>
+</html>
